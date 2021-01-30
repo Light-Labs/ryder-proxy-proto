@@ -1,0 +1,28 @@
+{
+  "name": "ryder-bridge",
+  "version": "0.0.3",
+  "description": "Ryder prototype bridge",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "author": "Marvin Janssen",
+  "license": "MIT",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "11.0.2",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "blockstack": "^19.3.0",
+    "dotenv": "^8.2.0",
+    "node-ipc-promise": "^0.1.2",
+    "rollup": "^1.20.0",
+    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-terser": "^5.1.2",
+    "ryderserial-proto": "git+https://github.com/Light-Labs/ryderserial-proto.git",
+    "svelte": "3.23.0",
+    "ws": "^7.3.0"
+  }
+}
